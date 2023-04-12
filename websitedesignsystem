@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Design System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&family=Sedgwick+Ave&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <header>
+    <h1>Website Style Guide</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Colors</a></li>
+        <li><a href="#">Fonts</a></li>
+        <li><a href="#">Text Styles</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="color">
+    <h2>Colors</h2>
+    <div class="pink">
+      <p>Old Rose</p>
+      <p>#C98986</p>
+      </div>
+      <div class="blue">
+      <p>Tiffany Blue</p>
+      <p>#79C7C5</p>
+      </div>
+      <div class="seafoam">
+      <p>Caribbean Crust</p>
+      <p>#006D77</p>
+      </div>
+      <div class="green">
+      <p>Cambridge Blue</p>
+      <p>#73AB84</p>
+      </div>
+  </section>
+  <section class="font">
+    <h2>Fonts</h2>
+    <div class="playfair">
+      <h3>Playfair Display</h3>
+        <p>He put the book down and slowly stood.</p>
+        <p><em>He put the book down and slowly stood.</em></p>
+       <p><strong>He put the book down and slowly stood.</strong></p>
+    </div>
+    <div class="quicksand">
+      <h3>Quicksand</h3>
+        <p>He put the book down and slowly stood.</p>
+        <p><em>He put the book down and slowly stood.</em></p>
+        <p><strong>He put the book down and slowly stood.</strong></p>
+    </div>
+    <div class="shadows">
+      <h3>Shadows Into Light</h3>
+    <p>He put the book down and slowly stood.</p>
+    <p><em>He put the book down and slowly stood.</em></p>
+    <p><strong>He put the book down and slowly stood.</strong></p>
+    </div>
+  </section>
+  <section class="style">
+    <h2>Text Styles & Display</h2>
+    <div class="main">
+    <p>H1: Main Page Heading</p>
+    <ul>
+      <li>Font-weight: 900 (bold)</li>
+      <li>Font-size: 30px</li>
+      <li>Font-family: Playfair Dsiplay</li>
+    </ul>
+    </div>
+    <div class="subhead">
+    <p>H2: Subheading</p>
+    <ul>
+      <li>Font-weight: 600</li>
+      <li>Font-size: 25px</li>
+      <li>Font-family: Quicksand</li>
+    </ul>
+    </div>
+    <div class="text">
+    <p>P: Paragraph Text</p>
+    <ul>
+      <li>Font-weight: 400 (regular)</li>
+      <li>Font-size: 20px</li>
+      <li>Font-family: Shadows into Light</li>
+    </ul>
+    </div>
+  </section>
+</html>
